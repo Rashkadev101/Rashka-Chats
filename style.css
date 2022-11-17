@@ -1,0 +1,225 @@
+* {
+    margin: 0;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+}
+body {
+   
+    width: 100%;
+}
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+    background-color: #000;
+    color: #fff;
+}
+header h3 {
+    letter-spacing: 1px;
+    text-transform: capitalize;
+    padding-left: 35px;
+
+}
+.logo-bg {
+    background-color: #fff;
+    color: #000;
+    padding: 4px;
+    border: 0;
+    border-radius: 5px;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    -ms-border-radius: 5px;
+    -o-border-radius: 5px;
+}
+.header-icon {
+    padding: 10px;
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    margin-right: 60px;
+}
+
+.header-icon input {
+    width: 20rem;
+    height: 28px;
+    padding-left: 10px;
+    border: 1px solid #333;
+    border-radius: 20px 0px 0px 20px;
+    -webkit-border-radius: 20px 0px 0px 20px;
+    -moz-border-radius: 20px 0px 0px 20px;
+    -ms-border-radius: 20px 0px 0px 20px;
+    -o-border-radius: 20px 0px 0px 20px;
+}
+.header-search {
+    border: 2px solid #000;
+    background-color: #333;
+    color: #ddd;
+    width: 50px;
+    height: 31px;
+    font-size: 13px;
+    padding-left: 15px;
+    padding-top: 5px;
+    position: relative;
+    left: -13px;
+    border-radius: 0px 20px 20px 0px;
+    -webkit-border-radius: 0px 20px 20px 0px;
+    -moz-border-radius: 0px 20px 20px 0px;
+    -ms-border-radius: 0px 20px 20px 0px;
+    -o-border-radius: 0px 20px 20px 0px;
+}
+
+/*data filtering......*/
+#data-filtering {
+    display: flex;
+}
+.leftSide {
+    background-color: #000;
+    color: #fff;
+    width: 13rem;
+    height: 28rem;
+    display: flex;
+    flex-direction: column;
+    padding: 20px;
+    gap: 20px;
+}
+.leftSide i {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 4px;
+   
+}
+.leftSide span {
+    font-size: 10px;
+    font-weight: 500;
+    text-transform: capitalize;
+    color: #ddd;
+    letter-spacing: 1px;
+}
+.leftSide span:hover {
+    text-decoration: underline;
+    transition: 0.3s ease;
+    -webkit-transition: 0.3s ease;
+    -moz-transition: 0.3s ease;
+    -ms-transition: 0.3s ease;
+    -o-transition: 0.3s ease;
+    cursor: pointer;
+}
+.user-color {
+    color: tomato;
+}
+.slack-color {
+    color: lightgreen;
+}
+.instagram-color {
+    color: rgb(248, 89, 115);
+}
+.spotify-color {
+    color: green;
+}
+.messenger-color {
+    color: blue;
+}
+.rightSide {
+    padding: 20px;
+    margin-top: 20px;
+}
+.right-side-items {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 20px;
+}
+.itemOne {
+    background-color: #333;
+    width: 140px;
+    height: 180px;
+    text-align: center;
+    border: 0;
+    border-radius: 4px;
+    -webkit-border-radius: 4px;
+    -moz-border-radius: 4px;
+    -ms-border-radius: 4px;
+    -o-border-radius: 4px;
+}
+.online {
+    width: 10px;
+    height: 10px;
+    background-color: green;
+    border-radius: 50%;
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    -ms-border-radius: 50%;
+    -o-border-radius: 50%;
+    position: relative;
+    left: 80px;
+    top: -18px;
+
+}
+.offline {
+    width: 10px;
+    height: 10px;
+    background-color: red;
+    border-radius: 50%;
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    -ms-border-radius: 50%;
+    -o-border-radius: 50%;
+    position: relative;
+    left: 80px;
+    top: -18px;
+
+}
+.itemicon {
+    float: right;
+    padding-right: 10px;
+    padding-top: 8px;
+    color: #ddd;
+   
+}
+.profile {
+    padding-top: 20px;
+}
+.profile h4 {
+    font-size: 14px;
+    font-weight: 500;
+    text-transform: capitalize;
+    padding-top: 4px;
+    color: #ddd;
+    letter-spacing: 0.8px;
+}
+.profile span {
+    color: #ddd;
+    font-size: 10px;
+    text-transform: capitalize;
+    letter-spacing: 0.6px;
+}
+.title {
+    padding-top: 4spx;
+}
+.title i {
+    color: rgb(200, 200, 200);
+
+}
+.itemImg {
+    width: 80px;
+    height: 80px;
+    object-fit: cover;
+    border-radius: 50%;
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    -ms-border-radius: 50%;
+    -o-border-radius: 50%;
+}
+
+
+
+ /* Media Query for Mobile Devices */
+ @media (max-width: 480px) {
+    body {
+        background-color: red;
+    }
+}
+
+
